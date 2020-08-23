@@ -1,0 +1,12 @@
+.locations-customInput{
+    border: none!important;
+    border-bottom: 1px solid #9a9393!important;
+    border-radius: 0!important;
+    box-shadow: none!important;
+    padding-left: 0!important;
+    padding-right: 0!important;
+    width: 100%;
+    &:focus{
+        border-bottom: 2px solid #15466f!important;
+    }
+}

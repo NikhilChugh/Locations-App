@@ -1,0 +1,21 @@
+.locationTimes-pageContainer{
+    .locationTimes-backdrop{
+        height: 440px;
+        width: 622px;
+    .heading{
+        color: #15466f;
+        font-weight: bold;
+    }
+    .fromAndToHeading{
+        display: grid;
+        grid-template-columns: 100px 4fr 3.5fr 2.5fr;
+        margin-bottom: 10px;
+        font-weight: 600;
+    }
+    .buttonPair{
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 30px;
+    }
+}
+}

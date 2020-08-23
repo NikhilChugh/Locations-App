@@ -1,0 +1,21 @@
+.landing-page-container{
+  background: #e1e1e673;
+  height: 100vh;
+.landing-page-headContainer{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 100px 0px 100px;
+  .locationsText{
+    color: gray;
+    font-weight: bold;
+  }
+}
+.addLocation-button{
+  background: #15466f;
+    outline: none;
+    border: none;
+    color: white;
+    padding: 5px 8px;
+    border-radius: 25px;
+}
+}

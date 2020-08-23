@@ -1,0 +1,51 @@
+.addLocation-backdrop{
+    width: 600px;
+    height: 400px;
+    .heading{
+        font-weight: bold;
+        color: #15466f;
+    }
+    label{
+        color: gray;
+        font-size: 12px;
+    }
+    .addLocation-row2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 25px;
+    }
+    .addLocation-row3{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 25px;
+        .cityAndStateInput{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 25px;
+        }
+    }
+    .addLocation-row4{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 25px;
+        .zipAndPhoneInput{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 25px;
+        }
+    }
+    .addLocation-row5{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 25px;
+    }
+    .error{
+        color: red;
+        font-size: 13px;
+    }
+    .buttonPair{
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 10px;
+    }
+}

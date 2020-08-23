@@ -1,0 +1,71 @@
+.enterTimeRow-container{
+    display: grid;
+    grid-template-columns: 60px 2fr 2fr 4fr;
+    margin-bottom: 10px;
+    .checkboxAndDayInput{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-gap: 10px;
+    }
+    input[type = text]{
+        margin-left: 40px;
+        width: 70px;
+        height: 17px;
+    }
+    .fromInputs{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 5px;
+    .ampmSwitchFrom{
+        margin-top: 4px;
+        cursor: pointer;
+        .blueSwitch{
+            background: #15466f;
+            color: white;
+            padding: 4px 10px 4px 10px;
+        }
+        .graySwitch{
+            background: #dad7d7;
+            color: black;
+            padding: 4px 10px 4px 10px;
+        }
+    }
+   }
+   .toInputs{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+    .ampmSwitchTo{
+        margin-top: 4px;
+        cursor: pointer;
+        .graySwitch{
+            background: #dad7d7;
+            color: black;
+            padding: 4px 10px 4px 10px;
+        }
+        .blueSwitch{
+            background: #15466f;
+            color: white;
+            padding: 4px 10px 4px 10px;
+        }
+    }
+}
+    .leftBorderRadius{
+        border-radius: 5px 0px 0px 5px;
+    }
+    .rightBorderRadius{
+        border-radius: 0px 5px 5px 0px;
+    }
+    .applyToAllChecked{
+        color: #15466f;
+        margin-left: 20px;
+        height: 20px;
+        text-align: center;
+        width: 115px;
+        font-size: 11px;
+        border: 1px solid #15466f;
+        padding: 1px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+}
